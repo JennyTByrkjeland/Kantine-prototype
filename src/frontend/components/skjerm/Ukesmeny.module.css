@@ -1,0 +1,20 @@
+.uke {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.dag {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #3b2f55;
+  font-size: 1.75rem;
+  color: #eadbfb;
+}
+
+.navn {
+  font-weight: bold;
+}

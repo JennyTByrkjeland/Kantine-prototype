@@ -1,0 +1,11 @@
+-- SQL commands to create admin user for the application
+-- LOCAL DEVELOPMENT ONLY
+-- Run after schema.sql (and after any auth tables), as the postgres user.
+
+CREATE ROLE username LOGIN PASSWORD 'password';
+
+GRANT CONNECT ON DATABASE yourdatabase TO username;
+GRANT USAGE ON SCHEMA public TO username;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO username;
+GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO username;

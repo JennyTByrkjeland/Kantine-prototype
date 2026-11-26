@@ -1,0 +1,43 @@
+.rett {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: #9c7eee;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  animation: animate-in 1s ease-out forwards;
+}
+
+.navn {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2b1452;
+}
+
+.pris {
+  margin: 0;
+  font-size: 1.75rem;
+  color: #543280;
+}
+
+@keyframes animate-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.allergener {
+  margin: 0.25rem 0 0 0;
+  font-size: 1.25rem;
+  color: #3b2066;
+}
+
+

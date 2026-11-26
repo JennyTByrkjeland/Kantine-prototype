@@ -1,0 +1,9 @@
+.hjem {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.hjem a {
+  text-decoration: underline;
+}

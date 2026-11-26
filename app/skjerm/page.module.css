@@ -1,0 +1,23 @@
+.skjerm {
+  height: 100vh;
+  overflow: hidden;
+  padding: 1.5rem 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+}
+
+.kolonner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  min-height: 0;
+}
+
+.kolonne {
+  display: grid;
+  align-content: start;
+  gap: 1.5rem;
+}
+
+
